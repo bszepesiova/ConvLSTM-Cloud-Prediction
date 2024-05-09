@@ -21,7 +21,7 @@ ConvLSTM-Cloud-Prediction is a project aimed at predicting cloud movements using
 - Commented code provided in `convlstm.ipynb`.
 - Bachelor thesis titled "Cloud Forecasting from Radar Data Using Neural Networks" is available in PDF format as `bakalarka.pdf`.
 - Hardware used for training: 
-  - Processors: AMD EPYC 7543P
+  - Processor: AMD EPYC 7543P
   - RAM: 512 GB
   - GPUs: 2x NVIDIA A100 with 40 GB memory
 
