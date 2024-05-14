@@ -18,7 +18,7 @@ ConvLSTM-Cloud-Prediction is a project aimed at predicting cloud movements using
 - Training and evaluation conducted using PyTorch.
 - Pretrained models available in the `Models` directory.
 - Output files in MP4 format located in the `Output_files` directory.
-- Commented code provided in `convlstm.ipynb`.
+- Commented codes provided in `src`.
 - Bachelor thesis titled "Cloud Forecasting from Radar Data Using Neural Networks" is available in PDF format as `bakalarka.pdf`.
 - Hardware used for training: 
   - Processor: AMD EPYC 7543P
