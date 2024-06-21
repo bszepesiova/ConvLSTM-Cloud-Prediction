@@ -47,8 +47,11 @@ The project employs two types of models:
 
 Post-thesis improvements include reducing the number of ConvLSTM layers from 8 to 5, which resulted in significantly better quality of output images. Images showing these improved results is included below.
 
+**Comparison of ConvLSTM and ConvLSTM + Encoder-Decoder with 5 ConvLSTM layers**
 ![Results](Img/convlstm-enc-dec-5-layers.png)
+**Absolute Pixel-wise Difference**
 ![Difference](Img/diff.png)
+**Binary Difference**
 ![Binary Difference](Img/bin-diff.png)
 
 The rest of the output files in MP4 format are located in the `Output_files` folder. The pretrained model is available in the `Models` directory.
