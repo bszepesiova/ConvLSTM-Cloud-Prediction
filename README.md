@@ -38,7 +38,7 @@ The data used for training and evaluation was provided by the Slovak Hydrometeor
 
 The project employs two types of models:
 
-1. **ConvLSTM**: Uses Convolutional LSTM layers to predict sequences.
+1. **ConvLSTM**: Convolutional LSTM
 2. **ConvLSTM with Encoder-Decoder**: Adds an encoder-decoder architecture to reduce the input size before entering the ConvLSTM part. This lets us use more ConvLSTM layers without running into memory issues.
 
 ![Model Architecture](Img/model.png)
