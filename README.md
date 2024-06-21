@@ -38,18 +38,18 @@ The data used for training and evaluation was provided by the Slovak Hydrometeor
 
 The project employs two types of models:
 
-1. **ConvLSTM**: Utilizes Convolutional LSTM layers for sequence prediction.
-2. **ConvLSTM with Encoder-Decoder**: Adds an encoder-decoder architecture to enhance prediction accuracy.
+1. **ConvLSTM**: Uses Convolutional LSTM layers to predict sequences.
+2. **ConvLSTM with Encoder-Decoder**: Adds an encoder-decoder architecture to reduce the input size before entering the ConvLSTM part. This lets us use more ConvLSTM layers without running into memory issues.
 
 ![Model Architecture](Img/model.png)
 
 ## Post-Thesis Improvements
 
-Post-thesis improvements include reducing the number of ConvLSTM layers from 8 to 5, which resulted in significantly better quality of output images. An image showing these improved results is included below.
+Post-thesis improvements include reducing the number of ConvLSTM layers from 8 to 5, which resulted in significantly better quality of output images. Images showing these improved results is included below.
 
-![Improved Results](Img/convlstm-enc-dec-5-layers.png)
+![Results](Img/convlstm-enc-dec-5-layers.png)
 ![Difference](Img/diff.png)
-
+![Binary Difference](Img/bin-diff.png)
 
 The rest of the output files in MP4 format are located in the `Output_files` folder. The pretrained model is available in the `Models` directory.
 
