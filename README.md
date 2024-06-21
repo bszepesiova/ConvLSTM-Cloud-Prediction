@@ -4,9 +4,12 @@
 
 1. [About](#about)
 2. [Features](#features)
-3. [Installation](#installation)
-4. [License](#license)
-5. [Sources](#sources)
+3. [Data](#data)
+4. [Models](#models)
+5. [Post-Thesis Improvements](#post-thesis-improvements)
+6. [Installation](#installation)
+7. [License](#license)
+8. [Sources](#sources)
 
 ## About
 
@@ -19,11 +22,36 @@ ConvLSTM-Cloud-Prediction is a project aimed at predicting cloud movements using
 - Pretrained models available in the `Models` directory.
 - Output files in MP4 format located in the `Output_files` directory.
 - Commented codes provided in `src`.
-- Bachelor thesis titled "Cloud Forecasting from Radar Data Using Neural Networks" is available in PDF format as `bakalarka.pdf`.
+- Bachelor thesis titled "Cloud Forecasting from Radar Data Using Neural Networks" is available in PDF format as `thesis.pdf`.
 - Hardware used for training: 
   - Processor: AMD EPYC 7543P
   - RAM: 512 GB
   - GPUs: 2x NVIDIA A100 with 40 GB memory
+
+## Data
+
+The data used for training and evaluation was provided by the Slovak Hydrometeorological Institute (SHMÚ). The dataset includes radar images capturing cloud movements over time.
+
+[SHMÚ](https://www.shmu.sk/sk/?page=1)
+
+## Models
+
+The project employs two types of models:
+
+1. **ConvLSTM**: Utilizes Convolutional LSTM layers for sequence prediction.
+2. **ConvLSTM with Encoder-Decoder**: Adds an encoder-decoder architecture to enhance prediction accuracy.
+
+![Model Architecture](Img/model.png)
+
+## Post-Thesis Improvements
+
+Post-thesis improvements include reducing the number of ConvLSTM layers from 8 to 5, which resulted in significantly better quality of output images. An image showing these improved results is included below.
+
+![Improved Results](Img/convlstm-enc-dec-5-layers.png)
+![Difference](Img/diff.png)
+
+
+The rest of the output files in MP4 format are located in the `Output_files` folder. The pretrained model is available in the `Models` directory.
 
 ## Installation
 
