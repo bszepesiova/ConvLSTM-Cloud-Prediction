@@ -45,7 +45,7 @@ The project employs two types of models:
 
 ## Post-Thesis Improvements
 
-Post-thesis improvements include reducing the number of ConvLSTM layers from 8 to 5, which resulted in significantly better quality of output images. Images showing these improved results is included below.
+Post-thesis improvements include reducing the number of ConvLSTM layers from 8 to 5, which resulted in significantly better quality of output images. Images showing these improved results are included below.
 
 **Comparison of ConvLSTM and ConvLSTM + Encoder-Decoder with 5 ConvLSTM layers**
 ![Results](Img/convlstm-enc-dec-5-layers.png)
